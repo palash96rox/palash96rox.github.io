@@ -20,14 +20,14 @@ function setLinks() {
 		n.focus();
 	};
 	document.getElementById("whatsapp").onclick = function () {
-		document.getElementById("whatsapp").innerHTML = "<i class='fa fa-whatsapp'></i>  +919833910070";
+		window.open("tel:xxx-xxx-xxxx", "");
 	};
 	document.getElementById("insta").onclick = function () {
 		var n = window.open("https://instagram.com/palash_a/", "_blank");
 		n.focus();
 	};
 	document.getElementById("skype").onclick = function () {
-		document.getElementById("skype").innerHTML = "<i class='fa fa-skype'></i>  palash.agarwal27"
+		window.open("SkypeID: palash.agarwal27", "_blank");
 	};
 	document.getElementById("linkedin").onclick = function () {
 		var n = window.open("https://www.linkedin.com/in/palash27a", "_blank");
