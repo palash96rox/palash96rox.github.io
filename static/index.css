@@ -30,14 +30,20 @@ body {
 
 #social {
 	float:left;
+	background:#fff;
+	padding:0.5%;
+	border-radius:5px;
 }
 
 #NotSoMuch {
 	float:right;
+	background:#fff;
+	padding:0.5%;
+	border-radius:5px;
 }
 
-.fa-whatsapp {
-	color: #4dc247;
+.fa-file-pdf-o {
+	color: #fc0d1b;
 }
 
 .fa-instagram {
