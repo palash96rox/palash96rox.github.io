@@ -27,14 +27,14 @@ function setLinks() {
  * Sets the event listeners for Google Analytics
  */
 function setTrackers () {
-	$('#fb').on('click', function() {ga('send', 'event', 'button', 'click', 'Facebook');console.log("Sent");});
-	$('#cv').on('click', function() {ga('send', 'event', 'button', 'click', 'Resume');console.log("Sent");});
-	$('#insta').on('click', function() {ga('send', 'event', 'button', 'click', 'Instagram');console.log("Sent");});
-	$('#skype').on('click', function() {ga('send', 'event', 'button', 'click', 'SkypeID');console.log("Sent");});
-	$('#linkedin').on('click', function() {ga('send', 'event', 'button', 'click', 'LinkedIn');console.log("Sent");});
-	$('#twitter').on('click', function() {ga('send', 'event', 'button', 'click', 'Twitter');console.log("Sent");});
-	$('#gmail').on('click', function() {ga('send', 'event', 'button', 'click', 'Email');console.log("Sent");});
-	$('#github').on('click', function() {ga('send', 'event', 'button', 'click', 'GitHub');console.log("Sent");});
+	$('#fb').on('click', function() {ga('send', 'event', 'button', 'click', 'Facebook');});
+	$('#cv').on('click', function() {ga('send', 'event', 'button', 'click', 'Resume');});
+	$('#insta').on('click', function() {ga('send', 'event', 'button', 'click', 'Instagram');});
+	$('#skype').on('click', function() {ga('send', 'event', 'button', 'click', 'SkypeID');});
+	$('#linkedin').on('click', function() {ga('send', 'event', 'button', 'click', 'LinkedIn');});
+	$('#twitter').on('click', function() {ga('send', 'event', 'button', 'click', 'Twitter');});
+	$('#gmail').on('click', function() {ga('send', 'event', 'button', 'click', 'Email');});
+	$('#github').on('click', function() {ga('send', 'event', 'button', 'click', 'GitHub');});
 	//$('#wait').on('click', function() {ga('send', 'event', 'button', 'click', 'Egg - Blog');});
 }
 
