@@ -20,7 +20,7 @@ function setLinks() {
 	$('#twitter').on('click', function () {window.open("https://twitter.com/palash96_a");});
 	$('#gmail').on('click', function () {window.open("http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=palash.agarwal.96@gmail.com");});
 	$('#github').on('click', function () {window.open("https://github.com/palash96rox");});
-	$('#wait').on('click', function () {window.open("http://palash96a.blogspot.in/");};
+	$('.fa-spinner').on('click', function () {window.open("http://palash96a.blogspot.in/");});
 }
 
 /**
@@ -35,7 +35,7 @@ function setTrackers () {
 	$('#twitter').on('click', function() {ga('send', 'event', 'button', 'click', 'Twitter');});
 	$('#gmail').on('click', function() {ga('send', 'event', 'button', 'click', 'Email');});
 	$('#github').on('click', function() {ga('send', 'event', 'button', 'click', 'GitHub');});
-	$('#wait').on('click', function() {ga('send', 'event', 'button', 'click', 'Egg - Blog');});
+	$('.fa-spinner').on('click', function() {ga('send', 'event', 'button', 'click', 'Egg - Blog');});
 }
 
 /**
