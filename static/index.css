@@ -44,32 +44,40 @@ body {
 
 .fa-file-pdf-o {
 	color: #fc0d1b;
+	cursor: pointer;
 }
 
 .fa-instagram {
 	color:#3f729b;
+	cursor: pointer;
 }
 
 .fa-skype {
 	color: #00aff0;
+	cursor: pointer;
 }
 
 .fa-facebook {
 	color:#3b5998;
+	cursor: pointer;
 }
 
 .fa-linkedin{
 	color:#0077b5;
+	cursor: pointer;
 }
 
 .fa-twitter {
 	color:#55acee;
+	cursor: pointer;
 }
 
 .fa-google {
 	color:#4285f4;
+	cursor: pointer;
 }
 
 .fa-github {
 	color:#333333;
+	cursor: pointer;
 }
