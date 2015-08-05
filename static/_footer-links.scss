@@ -1,0 +1,36 @@
+@mixin link($color) {
+	color: $color;
+	cursor:pointer;
+}
+
+.fa-file-pdf-o {
+	@include link(#4285f4);
+}
+
+.fa-instagram {
+	@include link(#4285f4);
+}
+
+.fa-skype {
+	@include link(#4285f4);
+}
+
+.fa-facebook {
+	@include link(#4285f4);
+}
+
+.fa-linkedin{
+	@include link(#4285f4);
+}
+
+.fa-twitter {
+	@include link(#4285f4);
+}
+
+.fa-google {
+	@include link(#4285f4);
+}
+
+.fa-github {
+	@include link(#4285f4);
+}
