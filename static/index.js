@@ -12,15 +12,15 @@ function logWelcome() {
  * Sets the links for various social profiles
  */
 function setLinks() {
-	$('#fb').on('click', function () {window.open("https://www.facebook.com/palash.96");});
-	$('#cv').on('click', function () {window.open("./static/Resume.pdf");});
+	//$('#fb').on('click', function () {window.open("https://www.facebook.com/palash.96");});
+	//$('#cv').on('click', function () {window.open("./static/Resume.pdf");});
 	$('#insta').on('click', function () {window.open("https://instagram.com/palash_a/");});
-	$('#skype').on('click', function () {window.open("SkypeID: palash.agarwal27");});
-	$('#linkedin').on('click', function () {window.open("https://www.linkedin.com/in/palash27a");});
-	$('#twitter').on('click', function () {window.open("https://twitter.com/palash96_a");});
+	//$('#skype').on('click', function () {window.open("SkypeID: palash.agarwal27");});
+	//$('#linkedin').on('click', function () {window.open("https://www.linkedin.com/in/palash27a");});
+	//$('#twitter').on('click', function () {window.open("https://twitter.com/palash96_a");});
 	$('#gmail').on('click', function () {window.open("http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=palash.agarwal.96@gmail.com");});
-	$('#github').on('click', function () {window.open("https://github.com/palash96rox");});
-	$('.fa-spinner').on('click', function () {window.open("http://palash96a.blogspot.in/");});
+	//$('#github').on('click', function () {window.open("https://github.com/palash96rox");});
+	//$('.fa-spinner').on('click', function () {window.open("http://palash96a.blogspot.in/");});
 }
 
 /**
